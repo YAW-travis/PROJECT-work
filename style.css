@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url(Breakthrough.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    width: 320px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(29, 63, 87);
+}
+
+input:focus {
+    outline: none;
+    border-color: #ee2323;
+    background-color: #f9f9f9;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #9f0404;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c0303;
+    border-color: aqua;
+}
+
+.required {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+p {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.message {
+    color: #9f0404;
+    text-decoration: none;
+    margin-left: 10px;
+    font-style: normal;
+}
+
+a {
+    color: #9f0404;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#landingpage {
+    color: white;
+}
+
+.container .unique1 {
+    color: rgb(71, 243, 255);
+    font-style: normal;
+}
+
+.container .unique2 {
+    color:#ee2323;
+    font-style: normal;
+}
+
+.container .unique {
+    color: rgb(255, 255, 255);
+    font-style: normal;
+}
+
+.container .unique3 {
+    color: rgb(241, 5, 5);
+    font-style: normal;
+}
